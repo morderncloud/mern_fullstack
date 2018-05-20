@@ -1,0 +1,33 @@
+{
+  "name": "mern_fullstack",
+  "version": "1.0.0",
+  "description": "Social networking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morderncloud/mern_fullstack.git"
+  },
+  "author": "Bruce Lu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morderncloud/mern_fullstack/issues"
+  },
+  "homepage": "https://github.com/morderncloud/mern_fullstack#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
