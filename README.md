@@ -18,14 +18,24 @@
 
 npm init
 npm install -g npm
-npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
+npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator gravatar
 npm i -D nodemon
+// package.json
+"scripts": {
+"start": "node server.js",
+"server": "nodemon server.js"
+},
+
+npm run server
+
+## Create routes
 
 ## Reference
 
 * [Gravatar](https://en.gravatar.com/)
 * [Full project on github](https://github.com/bradtraversy/devconnector)
 * [mlab MongoDB](https://mlab.com)
+* [Postman](https://app.getpostman.com/)
 
 ## VisualStudio Code settings
 
