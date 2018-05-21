@@ -3,6 +3,7 @@
 ## Main Tech
 
 * ES6+ Javascript
+* JWT
 * Node.js/Express
 * MongoDB
 * React & Redux
