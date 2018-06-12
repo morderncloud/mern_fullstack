@@ -9,10 +9,12 @@ const posts = require('./routes/api/posts');
 
 const app = new express();
 
-// Body parser
+// Use application/x-www-form-urlencoded parser
 app.use(bodyparser.urlencoded({
   extended: false
 }));
+
+// Get json bodies
 app.use(bodyparser.json());
 
 // DB connection
